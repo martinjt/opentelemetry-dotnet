@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Honeycomb" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.0.1" />
+    <PackageReference Include="OpenTelemetry" Version="0.2.0-alpha.100" />
+    <PackageReference Include="OpenTelemetry.Api" Version="0.2.0-alpha.100" />
+  </ItemGroup>
+
+</Project>
